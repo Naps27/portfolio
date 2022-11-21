@@ -9,3 +9,26 @@ body{
 span{
     color: rgb(255, 255, 255);
 }
+
+
+button{
+    display: inline-flex;
+    background-color: white;
+    
+    margin-bottom: 3px;
+
+}
+
+button:hover{
+    background-color: bisque;
+}
+
+.main-container{
+    display: inline-flex;
+    width: 60%;
+}
+
+.home-page{
+
+}
+
