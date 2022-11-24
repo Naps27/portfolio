@@ -3,7 +3,10 @@ body{
 }
 
 .nav{
-    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
 span{
@@ -11,24 +14,43 @@ span{
 }
 
 
-button{
-    display: inline-flex;
-    background-color: white;
-    
-    margin-bottom: 3px;
 
-}
 
 button:hover{
     background-color: bisque;
 }
 
-.main-container{
-    display: inline-flex;
-    width: 60%;
+.nav-container {
+	width: 960px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
 }
 
-.home-page{
 
+.main-header .nav-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+
+}
+
+.main-nav li:hover{
+    background-color: aqua;
+}
+
+
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
 }
 
