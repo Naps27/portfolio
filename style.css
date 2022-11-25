@@ -13,9 +13,6 @@ span{
     color: rgb(255, 255, 255);
 }
 
-
-
-
 button:hover{
     background-color: bisque;
 }
@@ -45,7 +42,7 @@ button:hover{
 }
 
 .main-nav li:hover{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -54,3 +51,7 @@ button:hover{
 	padding: .5em 1.5em;
 }
 
+.home-page{
+	text-align: center;
+
+}
